@@ -1,17 +1,17 @@
 pipeline{
        agent any
        stages{
-              stage('Build'){
+              stage ('Build') {
                  ........
-                }
-              stage('Test'){
+              }
+              stage ('Test') {
                  ........
-                }
-              stage('Deploy'){
+              }
+              stage ('Deploy') {
                  ........
-                }
-              stage('Monitor'){
+              }
+              stage ('Monitor') {
                  ........
-                }
-       }
+             }
+        }
 }
